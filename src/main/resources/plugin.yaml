@@ -1,0 +1,22 @@
+# Refer https://docs.halo.run/developer-guide/plugin/basics/manifest
+
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  # The name defines how the plugin is invoked, A unique name
+  name: halo-editor-probe
+spec:
+  enabled: true
+  requires: ">=2.26.0"
+  author:
+    name: baiuu
+    website: https://github.com/baiuu
+  logo: logo.png
+  homepage: https://github.com/baiuu/plugin-halo-editor-probe#readme
+  repo: https://github.com/baiuu/plugin-halo-editor-probe
+  issues: https://github.com/baiuu/plugin-halo-editor-probe/issues
+  displayName: "链接与锚点"
+  description: "为 Halo 默认编辑器提供增强的插入链接功能:在 Docsme 文档编辑器中通过文档树一键生成 ./ ../ 相对链接和标题锚点链接,在其他编辑场景中为文字挂载完整 URL 或页内锚点,支持工具栏和划词悬浮菜单两种入口。"
+  license:
+    - name: "GPL-3.0"
+      url: "https://github.com/baiuu/plugin-halo-editor-probe/blob/main/LICENSE"
