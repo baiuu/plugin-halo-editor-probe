@@ -31,6 +31,17 @@
 
 Docsme 的文档编辑器对第三方编辑器扩展采用白名单机制。本插件在 Docsme 文档编辑页中生效需要 Docsme 将本插件(`halo-editor-probe`)加入白名单;已向 Docsme 作者提交该需求。在 Halo 自带的文章/页面编辑器中不受此限制,开箱即用。
 
+> Docsme 是独立的第三方应用,其部分功能需要 Halo 专业版/商城版授权,相关授权与费用由 Docsme 决定,与本插件无关。本插件完全免费,且不依赖 Docsme 即可在 Halo 自带编辑器中使用。
+
+## 隐私说明
+
+本插件不收集、存储、上传或共享任何用户数据。所有网络请求仅访问当前站点的 REST API(读取文档树与文档内容用于生成链接),不向任何第三方服务发送数据,不包含遥测、统计或追踪。
+
+## 第三方资源
+
+- 图标来自 [Lucide](https://lucide.dev)(ISC 许可)与 [Remix Icon](https://remixicon.com)(Apache-2.0 许可),经 unplugin-icons 按需打包
+- Logo 为作者自制
+
 ## 环境要求
 
 - Halo >= 2.26.0
